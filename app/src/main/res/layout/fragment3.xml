@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+
+    >
+
+    <com.example.projekat1.view.custom.PercentageTextView
+        android:id="@+id/pv_main_percentage"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="75"
+        android:layout_marginTop="60dp"
+        app:backgroundCircleColor="@color/blue"
+        app:foregroundCircleColor="@color/red"
+        app:circleStrokeWidth="4dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/text_ispod_kruga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Ukupan iznos"
+        android:padding="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/pv_main_percentage"
+
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text_ispod_kruga"
+        >
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/frag3_rec_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/frag2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="RAF SKOLA"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/frag2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="24/12/2020"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/frag2_3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="bala bala a"
+        />
+
+    <TextView
+        android:id="@+id/frag2_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="80dp"
+        android:hint="bla bla "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/frag2_but_details"
+        />
+
+
+    <Button
+        android:id="@+id/frag2_but_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+
+        />
+
+</RelativeLayout>

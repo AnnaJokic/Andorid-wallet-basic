@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="JAFA"
+        android:id="@+id/ime_proizvoda_frag5"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kategorija: "
+        android:id="@+id/kategorija_proizvoda_frag5"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iznos_frag5"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/datum_frag5"
+        android:text="25/6/2019"/>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/slika_frag5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMOVE"
+        android:id="@+id/btn_frag5"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"/>
+
+</RelativeLayout>
